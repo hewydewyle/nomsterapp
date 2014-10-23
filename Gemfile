@@ -1,6 +1,10 @@
 source 'https://rubygems.org'
 
-# lesson 12 testing.
+# Lesson 13 SimpleFormGem
+
+gem 'simple_form'
+
+# Lesson 12 testing.
 
 gem 'kaminari'
 

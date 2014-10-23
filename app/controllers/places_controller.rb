@@ -2,10 +2,13 @@ class PlacesController < ApplicationController
 	def index
 		@places = Place.all
 	end
-	def index
-		@places = Place.order(:name).page(params[:page]).per(10)
+	#def index
+	#	@places = Place.order(:name).page(params[:page]).per(10)
 
-	end
+	#end
+    def new
+    	@place = Place.new
+    end
 
 	
 end
