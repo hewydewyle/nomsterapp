@@ -1,5 +1,11 @@
 source 'https://rubygems.org'
 
+# lesson 12 testing.
+
+gem 'kaminari'
+
+
+
 # Twitter Bootstrap install, LESSON 7
 
 gem 'bootstrap-sass', '~> 3.2.0'
