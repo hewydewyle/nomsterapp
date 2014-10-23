@@ -5,7 +5,6 @@ source 'https://rubygems.org'
 gem 'kaminari'
 
 
-
 # Twitter Bootstrap install, LESSON 7
 
 gem 'bootstrap-sass', '~> 3.2.0'

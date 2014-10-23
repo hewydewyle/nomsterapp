@@ -3,7 +3,7 @@ class PlacesController < ApplicationController
 		@places = Place.all
 	end
 	def index
-		@places = Places.order(:name).page params[:page]
+		@places = Place.order(:name).page(params[:page]).per(10)
 
 	end
 
