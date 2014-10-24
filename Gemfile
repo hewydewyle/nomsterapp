@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+# Lesson 16 Devise gem / authentication
+
+gem 'devise', '>= 3.2.4'
+
 # Lesson 13 SimpleFormGem
 
 gem 'simple_form'
