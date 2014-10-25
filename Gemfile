@@ -1,5 +1,13 @@
 source 'https://rubygems.org'
 
+# Lesson 29 continued, figaro - API KEY
+
+gem "figaro", ">= 1.0.0"
+
+# Lesson #29 Geocoder
+
+gem "geocoder"
+
 # Lesson 16 Devise gem / authentication
 
 gem 'devise', '>= 3.2.4'
