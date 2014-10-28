@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+# Lesson 39 Self Directed
+
+gem 'carrierwave'
+
 # Lesson 29 continued, figaro - API KEY
 
 gem "figaro", ">= 1.0.0"
